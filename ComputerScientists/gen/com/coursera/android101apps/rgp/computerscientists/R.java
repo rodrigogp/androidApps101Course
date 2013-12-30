@@ -26,8 +26,7 @@ public final class R {
         public static final int tim_berners_lee=0x7f020002;
     }
     public static final class id {
-        public static final int charles_babbage_image=0x7f080001;
-        public static final int imageView1=0x7f080003;
+        public static final int scientistImage=0x7f080001;
         public static final int scientistName=0x7f080000;
         public static final int scientistOverview=0x7f080002;
     }

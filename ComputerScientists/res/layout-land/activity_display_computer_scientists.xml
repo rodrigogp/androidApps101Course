@@ -14,26 +14,38 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
+        android:paddingBottom="8dp"
         android:text="@string/tim_berners_lee"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <TextView
-        android:id="@+id/scientistOverview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="184dp"
-        android:text="@string/tim_berners_lee_overview" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/scientistImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/scientistOverview"
         android:layout_below="@+id/scientistName"
+        android:adjustViewBounds="true"
         android:contentDescription="@string/tim_berners_lee_picture_cd"
+        android:paddingBottom="8dp"
+        android:scaleType="fitXY"
         android:src="@drawable/tim_berners_lee" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/scientistName"
+        android:layout_toRightOf="@id/scientistImage"
+        android:fillViewport="true"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp" >
+
+        <TextView
+            android:id="@+id/scientistOverview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tim_berners_lee_overview"
+            android:textAlignment="gravity"
+            android:textSize="22sp" />
+    </ScrollView>
 
 </RelativeLayout>
