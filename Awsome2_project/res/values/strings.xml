@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Awesome</string>
+    <string name="caption">This is a 360 degrees panoramic view taken from my nexus 4 and then wrapped up with the tiny planet feature from the android camera. This is a 360 degrees panoramic view taken from my nexus 4 and then wrapped up with the tiny planet feature from the android camera. This is a 360 degrees panoramic view taken from my nexus 4 and then wrapped up with the tiny planet feature from the android camera. This is a 360 degrees panoramic view taken from my nexus 4 and then wrapped up with the tiny planet feature from the android camera. This is a 360 degrees panoramic view taken from my nexus 4 and then wrapped up with the tiny planet feature from the android camera</string>
+    <string name="alicante_360_description" translatable="false">Picture of Alicante in 360 degrees and wrapped up as tiny planet</string>
+
+</resources>
